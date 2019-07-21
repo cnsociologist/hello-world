@@ -1,7 +1,0 @@
-FROM rocker/r-base:latest
-COPY myscripts/ .
-WORKDIR myscripts/
-CMD ["Rscript", "myscript.R"]
-
-https://github.com/cnsociologist/hello-world.git
-https://github.com/cnsociologist/hello-world.git
