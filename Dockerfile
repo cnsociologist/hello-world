@@ -1,4 +1,4 @@
 FROM rocker/r-base:latest
-COPY myscripts/myscript.R .
+COPY myscripts/ .
 WORKDIR myscripts/
 CMD ["Rscript", "myscript.R"]
